@@ -23,11 +23,13 @@
 </head>
 
 <body>
-    <header class=" container">
-        <nav class="navbar navbar-expand-md navbar-light bg-transparent">
+    <header class=" container mb-5 pb-5">
+        <nav class="navbar navbar-expand-md  px-5 navbar-light bg-transparent sticky-top ">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand d-flex justify-content-between align-items-center" href="#">
                     <img src="images/logo.png" alt="">
+                    <h3 class="ms-3"> <span style="color: seagreen;">Nike</span> <span
+                            style="color:sandybrown">Club</span></h3>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
@@ -37,16 +39,16 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ms-auto mb-2 mb-md-0 ">
                         <li class="nav-item">
-                            <a class="nav-link active " aria-current="page" href="#">Home</a>
+                            <a class="nav-link active fw-bolder" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Products</a>
+                            <a class="nav-link fw-bolder" href="#products">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link fw-bolder" href="#">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link fw-bolder" href="#">Contact</a>
                         </li>
 
                     </ul>
@@ -54,9 +56,99 @@
                 </div>
             </div>
         </nav>
-    </header>
-    <main>
+        <section class="py-5 my-5">
+            <div class="row">
+                <div class="hero  col-md-6" id="home">
+                    <img class="img-fluid" src="images/hero-showcase.png" alt="">
 
+                </div>
+                <div class="hero-text col-md-6">
+                    <h2 style="font-size: 60px;">
+                        <span style="color: orange;">Nike React</span>
+                        <br>
+                        <span style="color: slateblue;"> Infinity Run 2</span>
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora officiis rerum nemo ullam
+                        pariatur possimus at aut labore officia qui!</p>
+                    <a href="#" class="btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        Buy Now
+                    </a>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="products py-5 " id="products">
+            <div class="container  ">
+                <!-- casual shoes  -->
+                <h2 class="my-5 fs-1">Casual Shoes</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <!-- products  -->
+                    <div class="col">
+
+                        <div class="card shadow p-3 mb-5 bg-body rounded-3 h-100">
+                            <img src="images/product1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fs-3">Nike </h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Architecto,
+                                    reprehenderit!</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h2 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$390</h2>
+                                    <a href="#" class="btn">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        Buy Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+
+                        <div class="card shadow p-3 mb-5 bg-body rounded-3 h-100">
+                            <img src="images/product2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fs-3">Nike </h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Architecto,
+                                    reprehenderit!</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h2 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$490</h2>
+                                    <a href="#" class="btn">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        Buy Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+
+                        <div class="card shadow p-3 mb-5 bg-body rounded-3 h-100">
+                            <img src="images/product3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fs-3">Nike </h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Architecto,
+                                    reprehenderit!</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h2 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$990</h2>
+                                    <a href="#" class="btn">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        Buy Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
     </main>
     <footer>
 

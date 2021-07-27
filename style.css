@@ -13,6 +13,7 @@ h3 {
   font-size: 48px;
   font-family: "Pirata One", cursive;
 }
+
 li a {
   color: lightsalmon !important;
 }
@@ -25,4 +26,55 @@ li a:hover {
   -moz-border-radius: 15px !important;
   -ms-border-radius: 15px !important;
   -o-border-radius: 15px !important;
+}
+
+.hero {
+  background-image: url(images/heroShow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+}
+a.btn:focus {
+  outline: none;
+  color: inherit;
+}
+a.btn {
+  text-transform: uppercase;
+  background-color: rgb(41, 101, 231);
+  color: whitesmoke;
+  padding: 10px 20px;
+  font-weight: 500;
+  border: 2px solid transparent;
+  transition: 0.35s;
+  -webkit-transition: 0.35s;
+  -moz-transition: 0.35s;
+  -ms-transition: 0.35s;
+  -o-transition: 0.35s;
+}
+a.btn:hover {
+  color: rgb(92, 122, 32);
+  background-color: transparent;
+  border-color: yellowgreen;
+}
+.products {
+  background-color: rgba(239, 239, 245, 0.952);
+}
+.card {
+  border: 0 !important;
+  border-radius: 20px !important;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -ms-border-radius: 20px !important;
+  -o-border-radius: 20px !important;
+}
+
+.card img {
+  background-color: rgba(239, 239, 245, 0.952);
+  padding: 10px;
+  overflow: hidden;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }

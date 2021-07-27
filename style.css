@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "David Libre", serif;
+}
+
+h2 {
+  font-size: 190px;
+  font-family: "Pirata One", cursive;
+}
+
+h3 {
+  font-size: 48px;
+  font-family: "Pirata One", cursive;
+}
+li a {
+  color: lightsalmon !important;
+}
+
+li a:hover {
+  background-color: #fa9f4aee !important;
+  color: whitesmoke !important;
+  border-radius: 15px !important;
+  -webkit-border-radius: 15px !important;
+  -moz-border-radius: 15px !important;
+  -ms-border-radius: 15px !important;
+  -o-border-radius: 15px !important;
+}

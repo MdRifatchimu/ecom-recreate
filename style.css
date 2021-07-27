@@ -101,7 +101,7 @@ a.btn:hover {
   color: #fa9f4aee !important;
 }
 a {
-  margin-left: 10px;
+  margin-right: 10px;
 }
 .icon a {
   color: #ffffffee;
@@ -113,6 +113,13 @@ a {
   color: white;
   text-decoration: none;
 }
+.text a {
+  text-decoration: none;
+  color: white;
+}
 .text :hover {
   color: #fa9f4aee;
+}
+a:hover {
+  color: #fa9f4aee !important;
 }

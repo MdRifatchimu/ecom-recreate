@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nike Club</title>
     <!-- font awesome  -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
@@ -24,7 +24,7 @@
 
 <body>
     <header class=" container mb-5 pb-5">
-        <nav class="navbar navbar-expand-md  px-5 navbar-light bg-transparent sticky-top ">
+        <nav class="navbar navbar-expand-md  navbar-light bg-transparent sticky-top ">
             <div class="container-fluid">
                 <a class="navbar-brand d-flex justify-content-between align-items-center" href="#">
                     <img src="images/logo.png" alt="">
@@ -45,10 +45,10 @@
                             <a class="nav-link fw-bolder" href="#products">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fw-bolder" href="#">About</a>
+                            <a class="nav-link fw-bolder" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fw-bolder" href="#">Contact</a>
+                            <a class="nav-link fw-bolder" href="#contact">Contact</a>
                         </li>
 
                     </ul>
@@ -79,17 +79,17 @@
         </section>
     </header>
 
-    <main>
-        <section class="products py-5 " id="products">
+    <main class="products">
+        <section class=" py-5 " id="products">
             <div class="container  ">
                 <!-- casual shoes  -->
-                <h2 class="my-5 fs-1">Casual Shoes</h2>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
+                <h2 class="my-5 fs-1" style="color: indigo;">Casual Shoes</h2>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <!-- products  -->
                     <div class="col">
 
                         <div class="card shadow p-3 mb-5 bg-body rounded-3 h-100">
-                            <img src="images/product1.png" class="card-img-top" alt="...">
+                            <img src="images/product1.png" class="card-img-top h-75" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fs-3">Nike </h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -108,7 +108,7 @@
                     <div class="col">
 
                         <div class="card shadow p-3 mb-5 bg-body rounded-3 h-100">
-                            <img src="images/product2.png" class="card-img-top" alt="...">
+                            <img src="images/product2.png" class="card-img-top h-75" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fs-3">Nike </h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -127,9 +127,70 @@
                     <div class="col">
 
                         <div class="card shadow p-3 mb-5 bg-body rounded-3 h-100">
-                            <img src="images/product3.png" class="card-img-top" alt="...">
+                            <img src="images/product3.png" class="card-img-top h-75" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title fs-3">Nike </h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Architecto,
+                                    reprehenderit!</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h2 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$990</h2>
+                                    <a href="#" class="btn">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        Buy Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="my-5 fs-1" style="color: indigo;">Formal Shoes</h2>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <!-- products  -->
+                    <div class="col">
+
+                        <div class="card shadow p-3 mb-5 bg-body rounded-3 h-100">
+                            <img src="images/formals1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fs-3">Formal 1 </h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Architecto,
+                                    reprehenderit!</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h2 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$390</h2>
+                                    <a href="#" class="btn">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        Buy Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+
+                        <div class="card shadow p-3 mb-5 bg-body rounded-3 h-100">
+                            <img src="images/formals2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fs-3">Formal 2 </h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Architecto,
+                                    reprehenderit!</p>
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h2 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$490</h2>
+                                    <a href="#" class="btn">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        Buy Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+
+                        <div class="card shadow p-3 mb-5 bg-body rounded-3 h-100">
+                            <img src="images/formals3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fs-3">Formal 3 </h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Architecto,
                                     reprehenderit!</p>
@@ -149,6 +210,49 @@
 
 
         </section>
+        <section class="my-5 py-5" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <!-- service box  -->
+                        <div class="service-box mb-4 shadow">
+                            <img src="images/icon-shop.png" alt="">
+                            <div class="info my-3">
+                                <h2 style="color: #f9a426;"> Find The Perfect Fit</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, accusantium.</p>
+                            </div>
+                        </div>
+                        <div class="service-box mb-4 shadow">
+                            <img src="images/icon-download.png" alt="">
+                            <div class="info my-3">
+                                <h2 style="color: #f9a426;"> Find The Perfect Fit</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, accusantium.</p>
+                            </div>
+                        </div>
+                        <div class="service-box mb-4 shadow">
+                            <img src="images/icon-contact.png" alt="">
+                            <div class="info my-3">
+                                <h2 style="color: #f9a426;"> Find The Perfect Fit</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, accusantium.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="container mt-5 py-5">
+                            <img class="img-fluid" src="images/about-bg.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div class="container">
+                <h2 style="font-size: 48px; color: indigo;">Why Choose Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, amet?</p>
+            </div>
+        </section>
+
     </main>
     <footer>
 

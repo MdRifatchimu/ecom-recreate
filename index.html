@@ -13,6 +13,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=David+Libre&family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <!-- local style  -->
     <link rel="stylesheet" href="style.css">
     <!-- bootstrap  -->
@@ -28,8 +31,8 @@
             <div class="container-fluid">
                 <a class="navbar-brand d-flex justify-content-between align-items-center" href="#">
                     <img src="images/logo.png" alt="">
-                    <h3 class="ms-3"> <span style="color: seagreen;">Nike</span> <span
-                            style="color:sandybrown">Club</span></h3>
+                    <h2 class="ms-3"> <span style="color: seagreen;">Nike</span> <span
+                            style="color:sandybrown">Club</span></h2>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
@@ -79,7 +82,8 @@
         </section>
     </header>
 
-    <main class="products">
+    <main class="background">
+        <!-- products  -->
         <section class=" py-5 " id="products">
             <div class="container  ">
                 <!-- casual shoes  -->
@@ -96,7 +100,7 @@
                                     Architecto,
                                     reprehenderit!</p>
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <h2 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$390</h2>
+                                    <h3 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$390</h3>
                                     <a href="#" class="btn">
                                         <i class="fas fa-shopping-cart"></i>
                                         Buy Now
@@ -115,7 +119,7 @@
                                     Architecto,
                                     reprehenderit!</p>
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <h2 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$490</h2>
+                                    <h3 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$490</h3>
                                     <a href="#" class="btn">
                                         <i class="fas fa-shopping-cart"></i>
                                         Buy Now
@@ -134,7 +138,7 @@
                                     Architecto,
                                     reprehenderit!</p>
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <h2 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$990</h2>
+                                    <h3 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$990</h3>
                                     <a href="#" class="btn">
                                         <i class="fas fa-shopping-cart"></i>
                                         Buy Now
@@ -157,7 +161,7 @@
                                     Architecto,
                                     reprehenderit!</p>
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <h2 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$390</h2>
+                                    <h3 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$390</h3>
                                     <a href="#" class="btn">
                                         <i class="fas fa-shopping-cart"></i>
                                         Buy Now
@@ -176,7 +180,7 @@
                                     Architecto,
                                     reprehenderit!</p>
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <h2 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$490</h2>
+                                    <h3 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$490</h3>
                                     <a href="#" class="btn">
                                         <i class="fas fa-shopping-cart"></i>
                                         Buy Now
@@ -195,7 +199,7 @@
                                     Architecto,
                                     reprehenderit!</p>
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <h2 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$990</h2>
+                                    <h3 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$990</h3>
                                     <a href="#" class="btn">
                                         <i class="fas fa-shopping-cart"></i>
                                         Buy Now
@@ -210,6 +214,7 @@
 
 
         </section>
+        <!-- about us  -->
         <section class="my-5 py-5" id="about">
             <div class="container">
                 <div class="row">
@@ -246,15 +251,76 @@
             </div>
 
         </section>
+        <!-- service  -->
         <section>
             <div class="container">
                 <h2 style="font-size: 48px; color: indigo;">Why Choose Us</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, amet?</p>
+                <!-- accordings  -->
+                <div class="accordion accordion-flush py-5" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed title fs-2" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                We are Reliable
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Dolores, amet.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed title fs-2" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Understanding
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                                cumque.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed title fs-2" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Supportive
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                                nobis doloremque quidem excepturi. Esse sapiente atque temporibus sint praesentium harum
+                                sed dolores nisi, hic repellendus? Quis, quos corporis. Alias quae, aspernatur
+                                exercitationem quod ducimus sint ab suscipit dolor. Quos qui explicabo sit esse placeat
+                                facilis officiis culpa ad itaque enim!</div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </section>
 
     </main>
-    <footer>
+    <footer style="background-color: rgb(118, 146, 199); " class="pt-5 pb-1">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="" class="text">
+                <p>2021<i class="fa fa-copyright" aria-hidden="true"> Nike Club</i></p>
+            </a>
+            <div class="icon">
+                <a href="#"> <i class="fab fa-youtube fs-2"></i></a>
+                <a href="#"> <i class="fab fa-facebook fs-2"></i></a>
+                <a href="#"> <i class="fab fa-twitter fs-2"></i></a>
+                <a href="#"> <i class="fab fa-instagram fs-2"></i></a>
+            </div>
+        </div>
 
     </footer>
     <!-- bootstrap js  -->

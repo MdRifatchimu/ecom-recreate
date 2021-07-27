@@ -21,13 +21,16 @@
     <!-- bootstrap  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
 </head>
 
 <body>
     <header class=" container mb-5 pb-5">
-        <nav class="navbar navbar-expand-md  navbar-light bg-transparent sticky-top ">
+        <nav class="navbar navbar-expand-md  navbar-light bg-transparent sticky-lg-top ">
             <div class="container-fluid">
                 <a class="navbar-brand d-flex justify-content-between align-items-center" href="#">
                     <img src="images/logo.png" alt="">
@@ -59,13 +62,17 @@
                 </div>
             </div>
         </nav>
+
+    </header>
+
+    <main>
         <section class="py-5 my-5">
             <div class="row">
                 <div class="hero  col-md-6" id="home">
                     <img class="img-fluid" src="images/hero-showcase.png" alt="">
 
                 </div>
-                <div class="hero-text col-md-6">
+                <div class="hero-text col-md-6 p-5">
                     <h2 style="font-size: 60px;">
                         <span style="color: orange;">Nike React</span>
                         <br>
@@ -80,250 +87,299 @@
                 </div>
             </div>
         </section>
-    </header>
+        <div class="background">
+            <!-- products  -->
+            <section class=" py-5 " id="products">
+                <div class="container  ">
+                    <!-- casual shoes  -->
+                    <h2 class="my-5 fs-1" style="color: indigo;">Casual Shoes</h2>
+                    <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4">
+                        <!-- products  -->
+                        <div class="col">
 
-    <main class="background">
-        <!-- products  -->
-        <section class=" py-5 " id="products">
-            <div class="container  ">
-                <!-- casual shoes  -->
-                <h2 class="my-5 fs-1" style="color: indigo;">Casual Shoes</h2>
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                    <!-- products  -->
-                    <div class="col">
+                            <div class="card shadow p-3 mb-5 bg-body rounded-3 h-100">
+                                <img src="images/product1.png" class="card-img-top h-75" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-3">Nike </h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Architecto,
+                                        reprehenderit!</p>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <h3 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$390
+                                        </h3>
+                                        <a href="#" class="btn">
+                                            <i class="fas fa-shopping-cart"></i>
+                                            Buy Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
 
-                        <div class="card shadow p-3 mb-5 bg-body rounded-3 h-100">
-                            <img src="images/product1.png" class="card-img-top h-75" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title fs-3">Nike </h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Architecto,
-                                    reprehenderit!</p>
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <h3 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$390</h3>
-                                    <a href="#" class="btn">
-                                        <i class="fas fa-shopping-cart"></i>
-                                        Buy Now
-                                    </a>
+                            <div class="card shadow p-3 mb-5 bg-body rounded-3 h-100">
+                                <img src="images/product2.png" class="card-img-top h-75" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-3">Nike </h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Architecto,
+                                        reprehenderit!</p>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <h3 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$490
+                                        </h3>
+                                        <a href="#" class="btn">
+                                            <i class="fas fa-shopping-cart"></i>
+                                            Buy Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+
+                            <div class="card shadow p-3 mb-5 bg-body rounded-3 h-100">
+                                <img src="images/product3.png" class="card-img-top h-75" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-3">Nike </h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Architecto,
+                                        reprehenderit!</p>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <h3 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$990
+                                        </h3>
+                                        <a href="#" class="btn">
+                                            <i class="fas fa-shopping-cart"></i>
+                                            Buy Now
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <h2 class="my-5 fs-1" style="color: indigo;">Formal Shoes</h2>
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                        <!-- products  -->
+                        <div class="col">
 
-                        <div class="card shadow p-3 mb-5 bg-body rounded-3 h-100">
-                            <img src="images/product2.png" class="card-img-top h-75" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title fs-3">Nike </h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Architecto,
-                                    reprehenderit!</p>
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <h3 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$490</h3>
-                                    <a href="#" class="btn">
-                                        <i class="fas fa-shopping-cart"></i>
-                                        Buy Now
-                                    </a>
+                            <div class="card shadow p-3 mb-5 bg-body rounded-3 h-100">
+                                <img src="images/formals1.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-3">Formal 1 </h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Architecto,
+                                        reprehenderit!</p>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <h3 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$390
+                                        </h3>
+                                        <a href="#" class="btn">
+                                            <i class="fas fa-shopping-cart"></i>
+                                            Buy Now
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
+                        <div class="col">
 
-                        <div class="card shadow p-3 mb-5 bg-body rounded-3 h-100">
-                            <img src="images/product3.png" class="card-img-top h-75" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title fs-3">Nike </h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Architecto,
-                                    reprehenderit!</p>
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <h3 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$990</h3>
-                                    <a href="#" class="btn">
-                                        <i class="fas fa-shopping-cart"></i>
-                                        Buy Now
-                                    </a>
+                            <div class="card shadow p-3 mb-5 bg-body rounded-3 h-100">
+                                <img src="images/formals2.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-3">Formal 2 </h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Architecto,
+                                        reprehenderit!</p>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <h3 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$490
+                                        </h3>
+                                        <a href="#" class="btn">
+                                            <i class="fas fa-shopping-cart"></i>
+                                            Buy Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+
+                            <div class="card shadow p-3 mb-5 bg-body rounded-3 h-100">
+                                <img src="images/formals3.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-3">Formal 3 </h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Architecto,
+                                        reprehenderit!</p>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <h3 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$990
+                                        </h3>
+                                        <a href="#" class="btn">
+                                            <i class="fas fa-shopping-cart"></i>
+                                            Buy Now
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <h2 class="my-5 fs-1" style="color: indigo;">Formal Shoes</h2>
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                    <!-- products  -->
-                    <div class="col">
 
-                        <div class="card shadow p-3 mb-5 bg-body rounded-3 h-100">
-                            <img src="images/formals1.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title fs-3">Formal 1 </h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Architecto,
-                                    reprehenderit!</p>
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <h3 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$390</h3>
-                                    <a href="#" class="btn">
-                                        <i class="fas fa-shopping-cart"></i>
-                                        Buy Now
-                                    </a>
+
+
+            </section>
+            <!-- about us  -->
+            <section class="my-5 py-5" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <!-- service box  -->
+                            <div class="service-box mb-4 shadow">
+                                <img src="images/icon-shop.png" alt="">
+                                <div class="info my-3">
+                                    <h2 style="color: #f9a426;"> Find The Perfect Fit</h2>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, accusantium.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-box mb-4 shadow">
+                                <img src="images/icon-download.png" alt="">
+                                <div class="info my-3">
+                                    <h2 style="color: #f9a426;"> Find The Perfect Fit</h2>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, accusantium.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service-box mb-4 shadow">
+                                <img src="images/icon-contact.png" alt="">
+                                <div class="info my-3">
+                                    <h2 style="color: #f9a426;"> Find The Perfect Fit</h2>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, accusantium.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-
-                        <div class="card shadow p-3 mb-5 bg-body rounded-3 h-100">
-                            <img src="images/formals2.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title fs-3">Formal 2 </h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Architecto,
-                                    reprehenderit!</p>
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <h3 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$490</h3>
-                                    <a href="#" class="btn">
-                                        <i class="fas fa-shopping-cart"></i>
-                                        Buy Now
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-
-                        <div class="card shadow p-3 mb-5 bg-body rounded-3 h-100">
-                            <img src="images/formals3.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title fs-3">Formal 3 </h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Architecto,
-                                    reprehenderit!</p>
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <h3 style="color: rgb(248, 164, 38); font-size: 48px; font-weight: 600;">$990</h3>
-                                    <a href="#" class="btn">
-                                        <i class="fas fa-shopping-cart"></i>
-                                        Buy Now
-                                    </a>
-                                </div>
+                        <div class="col-6 col-lg-6 col-md-12 col-sm-12">
+                            <div class="container mt-5 py-5">
+                                <img class="img-fluid" src="images/about-bg.png" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-
-
-        </section>
-        <!-- about us  -->
-        <section class="my-5 py-5" id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 col-sm-12">
-                        <!-- service box  -->
-                        <div class="service-box mb-4 shadow">
-                            <img src="images/icon-shop.png" alt="">
-                            <div class="info my-3">
-                                <h2 style="color: #f9a426;"> Find The Perfect Fit</h2>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, accusantium.</p>
+            </section>
+            <!-- service  -->
+            <section>
+                <div class="container">
+                    <h2 style="font-size: 48px; color: indigo;">Why Choose Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, amet?</p>
+                    <!-- accordings  -->
+                    <div class="accordion accordion-flush py-5" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed title fs-2" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    We are Reliable
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Dolores, amet.</div>
                             </div>
                         </div>
-                        <div class="service-box mb-4 shadow">
-                            <img src="images/icon-download.png" alt="">
-                            <div class="info my-3">
-                                <h2 style="color: #f9a426;"> Find The Perfect Fit</h2>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, accusantium.</p>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed title fs-2" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Understanding
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Illo,
+                                    cumque.</div>
                             </div>
                         </div>
-                        <div class="service-box mb-4 shadow">
-                            <img src="images/icon-contact.png" alt="">
-                            <div class="info my-3">
-                                <h2 style="color: #f9a426;"> Find The Perfect Fit</h2>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, accusantium.</p>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed title fs-2" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                    aria-expanded="false" aria-controls="flush-collapseThree">
+                                    Supportive
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Quos
+                                    nobis doloremque quidem excepturi. Esse sapiente atque temporibus sint praesentium
+                                    harum
+                                    sed dolores nisi, hic repellendus? Quis, quos corporis. Alias quae, aspernatur
+                                    exercitationem quod ducimus sint ab suscipit dolor. Quos qui explicabo sit esse
+                                    placeat
+                                    facilis officiis culpa ad itaque enim!</div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-lg-6 col-md-12 col-sm-12">
-                        <div class="container mt-5 py-5">
-                            <img class="img-fluid" src="images/about-bg.png" alt="">
                         </div>
                     </div>
                 </div>
-            </div>
 
-        </section>
-        <!-- service  -->
-        <section>
-            <div class="container">
-                <h2 style="font-size: 48px; color: indigo;">Why Choose Us</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, amet?</p>
-                <!-- accordings  -->
-                <div class="accordion accordion-flush py-5" id="accordionFlushExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingOne">
-                            <button class="accordion-button collapsed title fs-2" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                aria-controls="flush-collapseOne">
-                                We are Reliable
-                            </button>
-                        </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Dolores, amet.</div>
-                        </div>
+            </section>
+            <!-- contact  -->
+            <section id="contact">
+                <div class="container contact-form ">
+                    <div class="contact-image">
+                        <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact" />
                     </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingTwo">
-                            <button class="accordion-button collapsed title fs-2" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                aria-controls="flush-collapseTwo">
-                                Understanding
-                            </button>
-                        </h2>
-                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
-                                cumque.</div>
+                    <form method="post">
+                        <h3>Drop Us a Message</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="txtName" class="form-control" placeholder="Your Name *"
+                                        value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *"
+                                        value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="txtPhone" class="form-control"
+                                        placeholder="Your Phone Number *" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea name="txtMsg" class="form-control" placeholder="Your Message *"
+                                        style="width: 100%; height: 150px;"></textarea>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="flush-headingThree">
-                            <button class="accordion-button collapsed title fs-2" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                aria-controls="flush-collapseThree">
-                                Supportive
-                            </button>
-                        </h2>
-                        <div id="flush-collapseThree" class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                                nobis doloremque quidem excepturi. Esse sapiente atque temporibus sint praesentium harum
-                                sed dolores nisi, hic repellendus? Quis, quos corporis. Alias quae, aspernatur
-                                exercitationem quod ducimus sint ab suscipit dolor. Quos qui explicabo sit esse placeat
-                                facilis officiis culpa ad itaque enim!</div>
-                        </div>
-                    </div>
+                    </form>
                 </div>
-            </div>
-
-        </section>
-
+            </section>
+            <br>
+        </div>
     </main>
-    <footer style="background-color: rgb(118, 146, 199); " class="pt-5 pb-1">
-        <div class="container d-flex justify-content-between align-items-center">
-            <div>
-                <a href="" class="text">
-                    <i class="fa fa-copyright" aria-hidden="true">2021 Nike Club</i>
-                </a>
-            </div>
-            <div class="icon">
-                <a href="#"> <i class="fab fa-youtube fs-2"></i></a>
-                <a href="#"> <i class="fab fa-facebook fs-2"></i></a>
-                <a href="#"> <i class="fab fa-twitter fs-2"></i></a>
-                <a href="#"> <i class="fab fa-instagram fs-2"></i></a>
+    <footer style="background-color: rgb(130, 36, 153); " class="pt-5 pb-1">
+        <div class="container">
+            <div class=" d-flex justify-content-between align-items-center">
+                <div>
+                    <a href="" class="text">
+                        <i class="fas fa-copyright">2021 Nike Club</i>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="#"> <i class="fab fa-youtube fs-2"></i></a>
+                    <a href="#"> <i class="fab fa-facebook fs-2"></i></a>
+                    <a href="#"> <i class="fab fa-twitter fs-2"></i></a>
+                    <a href="#"> <i class="fab fa-instagram fs-2"></i></a>
+                </div>
             </div>
         </div>
-
     </footer>
     <!-- bootstrap js  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
